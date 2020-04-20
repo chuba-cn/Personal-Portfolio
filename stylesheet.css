@@ -91,8 +91,8 @@ nav a {
 
  .project-grid {
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(20px, 1fr));
-    grid-gap: 4rem;
+    grid-template-columns: 600px 600px;
+    grid-gap: 50px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -103,5 +103,8 @@ nav a {
      display: block;
      text-decoration: none;
      color:#F0F0F0;
+     width: 500px;
+     height: 500px;
+     border-radius: 8px;
  }
 
